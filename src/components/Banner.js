@@ -77,12 +77,21 @@ export const Banner = () => {
                   </h1>
                   <p>
                     My fullname is Kyle Kretschmer. I have just completed my
-                    honours in information systems at UCT. I would like to work
-                    with SovTech to expand my skills in the software engineering
-                    aspect of the career path. What stood out for me in SovTech
-                    was the goal of creating innovative solutions for new
-                    startups which in my opinion is a big importance in South
-                    Africa.
+                    honours in information systems at UCT. I am a dedicated,
+                    ambitious, and hardworking individual where I live by the
+                    rule of "give it the best you possibly can and if you cant
+                    succeed then don’t beat yourself up”. I also believe in the
+                    logic that once out of university you will be continuously
+                    learning, I feel its necessary to constantly upskill
+                    yourself and learn more about the different career paths. I
+                    enjoy learning new areas of IT where although right now I
+                    have a passion for coding and learning new programming
+                    languages I still want to develop myself in different
+                    sections of the IT field. I would like to work with SovTech
+                    to expand my skills in the software engineering aspect of
+                    the career path. What stood out for me in SovTech was the
+                    goal of creating innovative solutions for new startups which
+                    in my opinion is a big importance in South Africa.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
