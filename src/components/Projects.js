@@ -1,11 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/forth project.jpg";
+import projImg1 from "../assets/img/specno.png";
 import projImg2 from "../assets/img/second work.jpg";
-import projImg3 from "../assets/img/project1.jpg";
-import projImg4 from "../assets/img/first work.jpg";
-import projImg5 from "../assets/img/fifth work.jpg";
-import projImg6 from "../assets/img/12345.jpg";
+import projImg6 from "../assets/img/statsandroads.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import React from "react";
@@ -14,7 +11,8 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      description: "Design & Development",
+      description:
+        "Onboarding website created for Specno, a cape town company. It was for my honours project, find code on my git hub account",
       imgUrl: projImg1,
     },
     {
@@ -22,19 +20,8 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      description: "Design & Development",
-      imgUrl: projImg4,
-    },
-    {
-      description: "Design & Development",
-      imgUrl: projImg5,
-    },
-    {
-      description: "Design & Development",
+      description:
+        "Mobile app I created in undergrad to allow users to register any form of road related occurances into their community",
       imgUrl: projImg6,
     },
   ];
