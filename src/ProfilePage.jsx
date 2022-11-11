@@ -7,7 +7,8 @@ import Navbar from "./Navigation/Navbar";
 const ProfilePage = () => {
   return (
     <div>
-      <Navbar />
+      Hello
+      {/* <Navbar />
       <section className="hero-section" id="hero">
         <div className="container">
           <div className="row align-items-center">
@@ -42,7 +43,7 @@ const ProfilePage = () => {
       </section>
 
       <script src="../Styles/bootstrap/js/bootstrap.bundle.min.jss"></script>
-      <script src="../Styles/main.js"></script>
+      <script src="../Styles/main.js"></script> */}
     </div>
   );
 };

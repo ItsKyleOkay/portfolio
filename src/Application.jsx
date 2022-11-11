@@ -1,7 +1,7 @@
-import React, { useContext, useMemo } from "react";
+import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 
-const ProfilePage = React.lazy(() => import("./ProfilePage"));
+import ProfilePage from "./ProfilePage";
 
 function Application() {
   <Routes>
