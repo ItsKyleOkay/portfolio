@@ -5,6 +5,7 @@ const ProfilePage = React.lazy(() => import("./ProfilePage"));
 
 function Application() {
   <Routes>
+    <Route path="/" element={<Navigate to="/profile" />} />
     <Route path="/profile" element={<ProfilePage />} />
   </Routes>;
 }
