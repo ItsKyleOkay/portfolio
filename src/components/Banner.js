@@ -90,12 +90,8 @@ export const Banner = () => {
                     of stress free environment. I enjoy learning new areas of IT
                     where although right now I have a passion for coding and
                     learning new programming languages I still want to develop
-                    myself in different sections of the IT field. I would like
-                    to work with SovTech to expand my skills in the software
-                    engineering aspect of the career path. What stood out for me
-                    in SovTech was the goal of creating innovative solutions for
-                    new startups which in my opinion is a big importance in
-                    South Africa.
+                    myself in different sections of the IT field. The connect
+                    button does not work but you can call me on 060 833 955 7
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
